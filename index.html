@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Wheater app</title>
 </head>
 
 <body>
-    <div id="container" class="bg-black">
+    <div id="container" class="bg-slate-300">
 
 <header class="h-screen flex justify-center items-center">
-    
-    <div id="box" class=" border-white-600 border-4 rounded-xl h-3/4 bg-gray-400 w-2/4 ">
-    <div id="encabezado" class="h-10 bg-gray-600 rounded-tl-xl rounded-tr-xl "></div>
+     
+    <div id="box" class="relative border-white-600 border-4 rounded-xl h-3/4 bg-gray-400 w-2/4 ">
+
+        <div id="encabezado" class="h-10 py-7 bg-gray-600 rounded-tl-xl px-4 items-center  rounded-tr-xl ">
+
+        <form action="" class="flex h-full gap-5 flex-row items-center justify-around">
+            <input class="w-full text-red-800 rounded-2xl mx-5 ">
+            <button class="fa-solid fa-magnifying-glass mr-4"></button>   
+        </form>
+
+    </div>
+
         <h2 class="">This is a wheater app</h2>
+
+        <div id="thBottom" class="h-5 bg-white bottom-0 w-full absolute"></div>
+    
+    </div>
 </div>
-</div>
+
 </header>
+<script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>
